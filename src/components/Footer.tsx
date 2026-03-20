@@ -12,7 +12,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Server Dragon Ball hàng đầu với cộng đồng sôi động và gameplay cân bằng.
+              Thời Đại Ngọc Rồng - hàng đầu với cộng đồng sôi động và gameplay cân bằng.
             </p>
           </div>
 
