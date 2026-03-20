@@ -1,3 +1,4 @@
+import sectionBgNews from "@/assets/section-bg-news.jpg";
 import { Newspaper, CalendarDays, BookOpen } from "lucide-react";
 
 const newsItems = [
