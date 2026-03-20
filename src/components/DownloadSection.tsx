@@ -53,16 +53,16 @@ const DownloadSection = () => {
           {platforms.map((p, i) => (
             <div
               key={i}
-              className="bg-gradient-card rounded-xl p-6 border border-gold/10 text-center hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
+              className="bg-gradient-card rounded-xl p-6 border border-gold/10 text-center hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 flex flex-col"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <p.icon className="text-primary" size={32} />
               </div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-2">{p.name}</h3>
-              <p className="text-sm text-muted-foreground mb-5">{p.desc}</p>
+              <p className="text-sm text-muted-foreground mb-5 flex-1">{p.desc}</p>
               <button
-                className={`w-full py-3 rounded-lg font-semibold text-sm transition-all ${
+                className={`w-full py-3 rounded-lg font-semibold text-sm transition-all mt-auto ${
                   p.primary
                     ? "bg-gradient-gold text-primary-foreground hover:opacity-90"
                     : "border border-primary/50 text-primary hover:bg-primary/10"
