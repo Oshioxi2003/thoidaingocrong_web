@@ -44,20 +44,20 @@ const FeaturesSection = () => {
           Khám phá những tính năng đặc biệt tại Thời Đại Ngọc Rồng
         </p>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {features.map((f, i) => (
             <div
               key={i}
-              className="bg-gradient-card rounded-xl p-6 border border-gold/10 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 group"
+              className="bg-gradient-card rounded-lg sm:rounded-xl p-3 sm:p-6 border border-gold/10 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 group"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                <f.icon className="text-primary" size={28} />
+              <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-2 sm:mb-4 group-hover:bg-primary/20 transition-colors">
+                <f.icon className="text-primary w-5 h-5 sm:w-7 sm:h-7" />
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+              <h3 className="font-display text-sm sm:text-xl font-semibold text-foreground mb-1 sm:mb-2">
                 {f.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
                 {f.desc}
               </p>
             </div>
