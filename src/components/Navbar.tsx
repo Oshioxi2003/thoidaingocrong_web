@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "./ThemeProvider";
 
 const navItems = [
   { label: "Trang chủ", href: "#home" },
@@ -13,6 +14,7 @@ const navItems = [
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-deep/90 backdrop-blur-md border-b border-gold/20">
@@ -35,6 +37,15 @@ const Navbar = () => {
               {item.label}
             </a>
           ))}
+
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+
           <a
             href="#login"
             className="px-4 py-2 rounded-md bg-gradient-gold text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
@@ -50,12 +61,21 @@ const Navbar = () => {
         </div>
 
         {/* Mobile toggle */}
-        <button
-          className="lg:hidden text-foreground"
-          onClick={() => setMobileOpen(!mobileOpen)}
-        >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div className="lg:hidden flex items-center gap-3">
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <button
+            className="text-foreground"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
