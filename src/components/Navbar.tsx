@@ -47,13 +47,13 @@ const Navbar = () => {
           </button>
 
           <a
-            href="#login"
+            href="/login"
             className="px-4 py-2 rounded-md bg-gradient-gold text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
           >
             Đăng nhập
           </a>
           <a
-            href="#register"
+            href="/register"
             className="px-4 py-2 rounded-md border border-primary/50 text-primary font-semibold text-sm hover:bg-primary/10 transition-colors"
           >
             Đăng ký
@@ -92,10 +92,10 @@ const Navbar = () => {
             </a>
           ))}
           <div className="px-6 pt-2 flex gap-3">
-            <a href="#login" className="px-4 py-2 rounded-md bg-gradient-gold text-primary-foreground font-semibold text-sm">
+            <a href="/login" className="px-4 py-2 rounded-md bg-gradient-gold text-primary-foreground font-semibold text-sm">
               Đăng nhập
             </a>
-            <a href="#register" className="px-4 py-2 rounded-md border border-primary/50 text-primary font-semibold text-sm">
+            <a href="/register" className="px-4 py-2 rounded-md border border-primary/50 text-primary font-semibold text-sm">
               Đăng ký
             </a>
           </div>
