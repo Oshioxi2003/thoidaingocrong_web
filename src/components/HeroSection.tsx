@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center pt-20">
         <div className="animate-float mb-6">
-          <img src="/images/logo.svg" alt="Thời Đại Ngọc Rồng" className="h-32 md:h-44 mx-auto drop-shadow-2xl" />
+          <img src="/images/logo.svg" alt="Thời Đại Ngọc Rồng" className="h-48 md:h-64 lg:h-80 mx-auto drop-shadow-2xl" />
         </div>
 
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-gradient-gold mb-4 tracking-wide">
