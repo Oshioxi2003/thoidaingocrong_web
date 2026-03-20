@@ -1,3 +1,4 @@
+import sectionBg1 from "@/assets/section-bg-1.jpg";
 import { Monitor, Smartphone, Apple, HelpCircle } from "lucide-react";
 
 const platforms = [
