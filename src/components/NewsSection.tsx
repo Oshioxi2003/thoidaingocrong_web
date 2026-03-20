@@ -80,6 +80,15 @@ const NewsSection = () => {
             </article>
           ))}
         </div>
+
+        <div className="text-center mt-10">
+          <a
+            href="/news"
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-lg border border-primary/50 text-primary font-semibold hover:bg-primary/10 transition-colors"
+          >
+            Xem tất cả tin tức
+          </a>
+        </div>
       </div>
     </section>
   );

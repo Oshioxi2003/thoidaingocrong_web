@@ -6,8 +6,8 @@ const navItems = [
   { label: "Trang chủ", href: "#home" },
   { label: "Giới thiệu", href: "#features" },
   { label: "Tải game", href: "#download" },
-  { label: "Tin tức", href: "#news" },
-  { label: "Sự kiện", href: "#events" },
+  { label: "Tin tức", href: "/news" },
+  { label: "Sự kiện", href: "/news" },
   { label: "Giftcode", href: "#giftcode" },
   { label: "Cộng đồng", href: "#community" },
 ];
