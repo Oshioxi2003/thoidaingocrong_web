@@ -1,3 +1,4 @@
+import sectionBg2 from "@/assets/section-bg-2.jpg";
 import { MessageCircle, Facebook, Send } from "lucide-react";
 
 const channels = [
