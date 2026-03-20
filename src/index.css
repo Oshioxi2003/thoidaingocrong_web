@@ -57,6 +57,7 @@
 
     --font-display: 'Chakra Petch', sans-serif;
     --font-body: 'Be Vietnam Pro', sans-serif;
+    --section-overlay-opacity: 0.85;
   }
 
   .light {
