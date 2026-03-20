@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Cinzel', 'serif'],
+        display: ['Chakra Petch', 'sans-serif'],
         body: ['Be Vietnam Pro', 'sans-serif'],
       },
       colors: {
