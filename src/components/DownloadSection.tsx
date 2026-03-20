@@ -34,9 +34,12 @@ const platforms = [
 
 const DownloadSection = () => {
   return (
-    <section id="download" className="py-24 bg-gradient-dark relative overflow-hidden">
-      {/* Decorative */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+    <section id="download" className="py-24 relative overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={sectionBg1} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/85" />
+      </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-gradient-gold mb-4">
