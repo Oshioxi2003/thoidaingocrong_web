@@ -75,15 +75,10 @@ const typeLabels: Record<string, string> = {
 
 const NewsListPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-dark pt-20 pb-16">
-      <div className="container mx-auto px-4">
-        <a
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-8"
-        >
-          <ArrowLeft size={16} />
-          Quay lại trang chủ
-        </a>
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-gradient-dark pt-24 pb-16">
+        <div className="container mx-auto px-4">
 
         <div className="mb-10">
           <h1 className="font-display text-3xl md:text-4xl font-bold text-gradient-gold mb-3">
