@@ -98,7 +98,7 @@ const LoginPage = () => {
                 />
                 Ghi nhớ đăng nhập
               </label>
-              <a href="#" className="text-sm text-primary hover:underline">
+              <a href="/forgot-password" className="text-sm text-primary hover:underline">
                 Quên mật khẩu?
               </a>
             </div>
