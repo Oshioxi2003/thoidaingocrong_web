@@ -1,4 +1,6 @@
-import { Newspaper, CalendarDays, BookOpen, ArrowLeft, Clock } from "lucide-react";
+import { Newspaper, CalendarDays, BookOpen, Clock } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const allNews = [
   {
