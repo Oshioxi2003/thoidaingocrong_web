@@ -38,7 +38,7 @@ const DownloadSection = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={sectionBg1} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background" style={{ opacity: 'var(--section-overlay-opacity)' }} />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
