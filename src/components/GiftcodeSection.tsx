@@ -1,4 +1,5 @@
 import { useState } from "react";
+import sectionBgGift from "@/assets/section-bg-gift.jpg";
 import { Gift, CheckCircle, XCircle } from "lucide-react";
 
 const GiftcodeSection = () => {
