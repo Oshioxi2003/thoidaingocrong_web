@@ -10,6 +10,7 @@ import RegisterPage from "./pages/RegisterPage.tsx";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage.tsx";
 import ChangePasswordPage from "./pages/ChangePasswordPage.tsx";
 import NewsListPage from "./pages/NewsListPage.tsx";
+import NewsDetailPage from "./pages/NewsDetailPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/forgot-password" element={<ForgotPasswordPage />} />
             <Route path="/change-password" element={<ChangePasswordPage />} />
             <Route path="/news" element={<NewsListPage />} />
+            <Route path="/news/:id" element={<NewsDetailPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
