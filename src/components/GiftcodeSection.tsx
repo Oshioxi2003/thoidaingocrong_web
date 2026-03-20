@@ -1,4 +1,5 @@
 import { useState } from "react";
+import sectionBgGift from "@/assets/section-bg-gift.jpg";
 import { Gift, CheckCircle, XCircle } from "lucide-react";
 
 const GiftcodeSection = () => {
@@ -15,8 +16,12 @@ const GiftcodeSection = () => {
   };
 
   return (
-    <section id="giftcode" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="giftcode" className="py-24 relative overflow-hidden">
+      <div className="absolute inset-0">
+        <img src={sectionBgGift} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/85" />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-gradient-gold mb-4">
           Nhập Giftcode
         </h2>
