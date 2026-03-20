@@ -28,31 +28,31 @@ const HeroSection = () => {
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-3 sm:gap-4 mb-16">
           <a
             href="#download"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-gradient-gold text-primary-foreground font-bold text-lg animate-pulse-glow hover:scale-105 transition-transform"
+            className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-8 py-3 sm:py-4 rounded-lg bg-gradient-gold text-primary-foreground font-bold text-sm sm:text-lg animate-pulse-glow hover:scale-105 transition-transform whitespace-nowrap"
           >
-            <Download size={22} />
+            <Download size={18} className="sm:w-[22px] sm:h-[22px] shrink-0" />
             Tải Game
           </a>
           <a
             href="#register"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-gradient-fire text-foreground font-bold text-lg hover:scale-105 transition-transform"
+            className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-8 py-3 sm:py-4 rounded-lg bg-gradient-fire text-foreground font-bold text-sm sm:text-lg hover:scale-105 transition-transform whitespace-nowrap"
           >
-            <UserPlus size={22} />
+            <UserPlus size={18} className="sm:w-[22px] sm:h-[22px] shrink-0" />
             Đăng Ký
           </a>
           <a
             href="#login"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-lg border-2 border-primary/50 text-primary font-bold text-lg hover:bg-primary/10 transition-colors"
+            className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-8 py-3 sm:py-4 rounded-lg border-2 border-primary/50 text-primary font-bold text-sm sm:text-lg hover:bg-primary/10 transition-colors whitespace-nowrap"
           >
-            <LogIn size={22} />
+            <LogIn size={18} className="sm:w-[22px] sm:h-[22px] shrink-0" />
             Đăng Nhập
           </a>
           <a
             href="#giftcode"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-lg border-2 border-fire-orange/50 text-fire-orange font-bold text-lg hover:bg-fire-orange/10 transition-colors"
+            className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-8 py-3 sm:py-4 rounded-lg border-2 border-fire-orange/50 text-fire-orange font-bold text-sm sm:text-lg hover:bg-fire-orange/10 transition-colors whitespace-nowrap"
           >
-            <Gift size={22} />
-            Nhận Giftcode
+            <Gift size={18} className="sm:w-[22px] sm:h-[22px] shrink-0" />
+            Giftcode
           </a>
         </div>
       </div>
