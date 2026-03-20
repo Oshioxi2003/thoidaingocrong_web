@@ -142,7 +142,9 @@ const NewsListPage = () => {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 
