@@ -125,33 +125,33 @@
 
 @layer utilities {
   .text-gradient-gold {
-    background: linear-gradient(135deg, hsl(36 95% 55%), hsl(40 100% 70%));
+    background: var(--gradient-gold);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .text-gradient-fire {
-    background: linear-gradient(135deg, hsl(20 95% 55%), hsl(5 85% 50%));
+    background: var(--gradient-fire);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .bg-gradient-gold {
-    background: linear-gradient(135deg, hsl(36 95% 55%), hsl(40 100% 70%));
+    background: var(--gradient-gold);
   }
 
   .bg-gradient-fire {
-    background: linear-gradient(135deg, hsl(20 95% 55%), hsl(5 85% 50%));
+    background: var(--gradient-fire);
   }
 
   .bg-gradient-dark {
-    background: linear-gradient(180deg, hsl(220 25% 6%), hsl(220 20% 12%));
+    background: var(--gradient-dark);
   }
 
   .bg-gradient-card {
-    background: linear-gradient(145deg, hsl(220 18% 14%), hsl(220 20% 10%));
+    background: var(--gradient-card);
   }
 
   .glow-gold {
